@@ -1,0 +1,66 @@
+{
+    "name": "blackcube/yii-form",
+    "description": "Form fields for Yii framework, without any styling",
+    "keywords": [
+        "yii",
+        "form",
+        "field",
+        "input",
+        "form-model",
+        "bridge",
+        "elastic"
+    ],
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "readme": "README.md",
+    "homepage": "https://github.com/blackcubeio/yii-form",
+    "support": {
+        "issues": "https://github.com/blackcubeio/yii-form/issues",
+        "source": "https://github.com/blackcubeio/yii-form"
+    },
+    "authors": [
+        {
+            "name": "Philippe Gaultier",
+            "email": "philippe@blackcube.io"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^8.4",
+        "blackcube/yii-bridge-model": "^1.0",
+        "yiisoft/form": "^1.5",
+        "yiisoft/form-model": "^1.1",
+        "yiisoft/html": "^4.2",
+        "yiisoft/json": "^1.1",
+        "yiisoft/strings": "^2.7",
+        "yiisoft/widget": "^2.2"
+    },
+    "require-dev": {
+        "codeception/codeception": "^5.3",
+        "codeception/module-asserts": "^3.3",
+        "phpcompatibility/php-compatibility": "^9.3",
+        "vlucas/phpdotenv": "^5.7",
+        "yiisoft/db-mysql": "^2.0",
+        "yiisoft/di": "^1.4",
+        "yiisoft/test-support": "^3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Blackcube\\Form\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Blackcube\\Form\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-devel": "1.x-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
